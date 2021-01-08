@@ -1,0 +1,257 @@
+/* OVERORDNET */
+body {
+    background-color: #FAF5EF;
+    font-family: Quicksand, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1,
+h2 {
+    font-family: Playfair Display, sans-serif;
+    color: #000000;
+}
+
+p {
+    line-height: 1.4;
+}
+
+/* MENU */
+header {
+    position: sticky;
+    background-color: rgba(250, 245, 239, 0.87);
+    box-shadow: 1px 0px 5px #e3dcc9;
+    z-index: 1;
+    width: 100%;
+}
+
+
+nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    justify-content: space-around;
+    min-height: 5vh;
+}
+
+nav a {
+    display: flex;
+    font-size: 1.2rem;
+    color: #000000;
+    text-decoration: none;
+    padding: 3rem;
+    padding-top: 7px;
+    margin-bottom: -45px;
+    line-height: 4rem;
+    align-items: right;
+}
+
+a:hover {
+    color: #ECAFA4;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    padding-top: 10px;
+}
+
+nav img {
+    width: 50%;
+    padding-top: 5px;
+}
+
+
+/* FIRST SECTION */
+#first_section {
+    padding-left: 4rem;
+}
+
+#first_section .title h1 {
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+#first_section h3 {
+    position: relative;
+    left: 32rem;
+    top: -4rem;
+    margin-bottom: 150px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+
+/* SECOND SECTION */
+#second_section p {
+    width: 80rem;
+    position: relative;
+    top: -10rem;
+    left: 62px;
+}
+
+
+/* OVERORDNET */
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* THIRD SECTION */
+#third_section {
+    display: flex;
+    top: -7rem;
+    position: relative;
+}
+
+#third_section .container_image {
+    margin: 0;
+}
+
+#third_section img {
+    width: 42%;
+    position: relative;
+    left: 60px;
+}
+
+#third_section .container_text {
+    background-color: #fffbf5;
+    position: absolute;
+    width: 650px;
+    padding: 46px;
+    margin-left: 34.8rem;
+    padding-top: 75.5px;
+    padding-bottom: 55px;
+    padding-right: 155px;
+}
+
+#third_section .container_text h1 {
+    font-size: 5rem;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+
+#third_section .container_text p {
+    font-size: 25px;
+}
+
+#third_section .line {
+    border-left: 1px solid #000000;
+    height: 138px;
+    position: relative;
+    top: 5rem;
+    left: -32rem;
+    transform: rotate(-90deg);
+}
+
+
+/* FOURTH SECTION */
+#fourth_section {
+    display: flex;
+    top: -7rem;
+    position: relative;
+}
+
+#fourth_section .container_image {
+    margin: 0;
+}
+
+#fourth_section img {
+    width: 42%;
+    position: relative;
+    left: 60px;
+}
+
+#fourth_section .container_text {
+    background-color: #fffbf5;
+    position: absolute;
+    width: 650px;
+    padding: 46px;
+    margin-left: 34.8rem;
+    padding-top: 75.5px;
+    padding-bottom: 55px;
+    padding-right: 155px;
+}
+
+#fourth_section .container_text h1 {
+    font-size: 5rem;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+#fourth_section .container_text p {
+    font-size: 25px;
+}
+
+#fourth_section .line {
+    border-left: 1px solid #000000;
+    height: 138px;
+    position: relative;
+    top: 5rem;
+    left: -32rem;
+    transform: rotate(-90deg);
+}
+
+/* PORTFOLIO SECTION */
+.container_portfolio h2 {
+    font-family: Quicksand, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -40rem;
+    left: 610px;
+}
+
+/*
+#fourth_section .container_circle {
+    height: 400px;
+    width: 400px;
+    background-color: #ECAFA4;
+    border-radius: 50%;
+    margin-left: 68rem;
+    margin-top: -10rem;
+    margin-bottom: 150px;
+}
+*/
+
+
+/* FOOTER */
+
+#footer {
+    background-color: #FCF9F5;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+.copyright {
+    border-top: 1px solid #000000;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    max-width: 8rem;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.icon img:hover {
+    opacity: 0.7;
+}

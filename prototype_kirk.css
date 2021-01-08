@@ -1,0 +1,285 @@
+/* OVERORDNET */
+body {
+    background-color: #FAF5EF;
+    font-family: Quicksand, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1,
+h2 {
+    font-family: Playfair Display, sans-serif;
+    color: #000000;
+}
+
+p {
+    line-height: 1.4;
+}
+
+
+/* MENU */
+header {
+    position: sticky;
+    background-color: rgba(250, 245, 239, 0.87);
+    box-shadow: 1px 0px 5px #e3dcc9;
+    z-index: 1;
+    width: 100%;
+}
+
+
+nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    justify-content: space-around;
+    min-height: 5vh;
+}
+
+nav a {
+    display: flex;
+    font-size: 1.2rem;
+    color: #000000;
+    text-decoration: none;
+    padding: 3rem;
+    padding-top: 7px;
+    margin-bottom: -45px;
+    line-height: 4rem;
+    align-items: right;
+}
+
+a:hover {
+    color: #ECAFA4;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    padding-top: 10px;
+}
+
+nav img {
+    width: 50%;
+    padding-top: 5px;
+}
+
+
+/* FIRST SECTION */
+#first_section {
+    position: relative;
+    left: 4rem;
+}
+
+#first_section h1 {
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+#first_section h3 {
+    font-weight: 100;
+}
+
+
+
+/* SECOND SECTION */
+#second_section {
+    background-color: #fcfaf8;
+}
+
+#second_section .text_container {
+    position: relative;
+    left: 4rem;
+    top: 6rem;
+    width: 49rem;
+}
+
+#second_section h2 {
+    font-weight: 600;
+}
+
+
+/* VIDEO */
+#video {
+    position: relative;
+    top: -34rem;
+    left: 56.5rem;
+}
+
+#video h3 {
+    line-height: 0;
+    font-weight: 600;
+    position: relative;
+    bottom: -59px;
+    font-family: Playfair Display, sans-serif;
+}
+
+/* SLIDESHOW */
+* {
+    box-sizing: border-box
+}
+
+#slideshow {
+    position: relative;
+    left: -9.5rem;
+    top: -20rem;
+}
+
+.slideshow_container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    font-family: Quicksand, sans-serif;
+    color: black;
+    font-size: 21px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+/* THIRD SECTION */
+#third_section h2 {
+    font-family: Quicksand, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -72rem;
+    left: 41rem;
+}
+
+
+/* STREGER */
+#line {
+    border-left: 1px solid #000000;
+    height: 167px;
+    position: relative;
+    left: -35.6rem;
+    top: -158rem;
+    transform: rotate(-90deg);
+}
+
+
+/* FOOTER */
+#footer {
+    background-color: #FCF9F5;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+.copyright {
+    border-top: 1px solid #000000;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    max-width: 8rem;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.icon img:hover {
+    opacity: 0.7;
+}
