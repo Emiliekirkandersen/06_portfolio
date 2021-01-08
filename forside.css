@@ -706,14 +706,15 @@ nav img {
 
 
 @media screen and (max-width: 1024px) {
-    /*
-    * {
+
+    body {
         overflow-x: hidden;
     }
-*/
+
 
     #first_section {
         margin: 0;
+        height: 13rem;
     }
 
     #first_section h1 {
@@ -735,6 +736,23 @@ nav img {
         left: 87px;
     }
 
+    #first_section .text_circle {
+        width: 35%;
+        position: absolute;
+        top: 130px;
+        left: 567px;
+    }
+
+    #first_section .dot {
+        height: 90px;
+        width: 90px;
+        background-color: #D5ECFD;
+        border-radius: 50%;
+        position: relative;
+        top: -37rem;
+        left: 489px;
+    }
+
     #socials_line1,
     #socials_line2,
     #portfolio_line,
@@ -745,22 +763,154 @@ nav img {
 
     #socials {
         position: relative;
-        top: 33.5;
-        width: 7rem;
+        top: -76.5px;
+        width: 8rem;
+    }
+
+    #scroll_section1 {
+        margin: 0;
+    }
+
+    #scroll_section1 .scroll,
+    #scroll_section2 .scroll {
+        display: none;
     }
 
 
-    #second_section {
-        position: relative;
-        top: 30rem;
+    #second_section .text {
+        padding: 170px;
+        padding-top: 76px;
     }
 
     #second_section h1 {
         font-size: 3rem;
+        position: relative;
+        left: -200px;
     }
+
+    #second_section h2 {
+        font-size: 1rem;
+    }
+
+    #second_section p {
+        display: none;
+    }
+
+    #fourth_section h1 {
+        font-size: 3rem;
+        position: relative;
+        left: -307px;
+        top: -129px;
+    }
+
+    #fourth_section .section_wrapper {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+
+    #fourth_section p {
+        font-size: 1rem;
+        position: relative;
+        left: 130px;
+        top: -14px;
+    }
+
+    #fifth_section input {
+        font-size: 1rem;
+    }
+
+    #footer {}
 }
 
 
 
 
-@media screen and (max-width: 420px) {}
+@media screen and (max-width: 420px) {
+
+    #first_section .image_flower img {
+        width: 45%;
+    }
+
+    #first_section .image_flower {
+        position: relative;
+        top: -123px;
+        left: 75px;
+    }
+
+    #first_section h1 {
+        font-size: 2rem;
+        position: relative;
+        top: 13px;
+        left: 100px;
+    }
+
+    #first_section .title2 {
+        font-size: 12px;
+        position: relative;
+        left: 8rem;
+        top: -21px;
+        z-index: 3;
+    }
+
+    #first_section .text_circle {
+        width: 42%;
+        position: absolute;
+        top: 146px;
+        left: 297px;
+    }
+
+    #first_section .dot {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: -31rem;
+        left: 289px;
+    }
+
+    #socials {
+        position: relative;
+        left: 22px;
+    }
+
+    #second_section h1 {
+        font-size: 3rem;
+        position: relative;
+        left: -5px;
+        top: -1px;
+        width: 23rem;
+    }
+
+
+    #second_section .text {
+        padding: 10px;
+        padding-bottom: 130px;
+    }
+
+    #fourth_section .section_wrapper {
+        padding: 0;
+        padding-top: 25px;
+    }
+
+    #fourth_section p {
+        font-size: 0.8rem;
+        position: relative;
+        left: 32px;
+        top: 6px;
+    }
+
+    #fourth_section h1 {
+        font-size: 40px;
+        position: relative;
+        left: 30px;
+        top: 8px;
+        transform: none;
+    }
+
+    #fifth_section {
+        padding: 47px;
+    }
+
+    #fifth_section .text a {
+        margin: 10px;
+    }
+}
