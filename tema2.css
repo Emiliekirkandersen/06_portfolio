@@ -16,6 +16,7 @@ p {
     line-height: 1.4;
 }
 
+
 /* MENU */
 header {
     position: sticky;
@@ -92,6 +93,7 @@ nav img {
     position: relative;
     top: -10rem;
     left: 62px;
+    line-height: 2;
 }
 
 

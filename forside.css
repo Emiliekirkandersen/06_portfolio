@@ -306,7 +306,6 @@ nav img {
 }
 
 #first_section h1 {
-    position: relative;
     top: 60px;
     left: 313px;
     z-index: 2;
@@ -704,21 +703,23 @@ nav img {
 
 
 
-
 @media screen and (max-width: 1024px) {
 
-    body {
+    html {
         overflow-x: hidden;
+        margin: 0;
+        height: 100%;
     }
-
 
     #first_section {
         margin: 0;
         height: 13rem;
+        margin-top: 7rem;
+        margin-bottom: 12rem;
     }
 
     #first_section h1 {
-        font-size: 3rem;
+        font-size: 5rem;
         position: relative;
         top: 11px;
         left: 184px;
@@ -727,13 +728,19 @@ nav img {
     #first_section .title2 {
         font-size: 1rem;
         position: relative;
-        left: 18rem;
+        left: 25rem;
+        top: -62px;
+        z-index: 1;
     }
 
     #first_section .image_flower {
         position: relative;
-        top: -228px;
+        top: -351px;
         left: 87px;
+    }
+
+    #first_section .image_flower img {
+        width: 30%
     }
 
     #first_section .text_circle {
@@ -749,9 +756,15 @@ nav img {
         background-color: #D5ECFD;
         border-radius: 50%;
         position: relative;
-        top: -37rem;
+        top: -54rem;
         left: 489px;
     }
+
+    #first_section .portfolio h3 {
+        display: none;
+    }
+
+
 
     #socials_line1,
     #socials_line2,
@@ -763,8 +776,13 @@ nav img {
 
     #socials {
         position: relative;
-        top: -76.5px;
+        top: -152.5px;
+        left: 19px;
         width: 8rem;
+    }
+
+    #socials img {
+        width: 37%;
     }
 
     #scroll_section1 {
@@ -779,17 +797,19 @@ nav img {
 
     #second_section .text {
         padding: 170px;
-        padding-top: 76px;
+        padding-top: 100px;
+        padding-bottom: 250px;
     }
 
     #second_section h1 {
-        font-size: 3rem;
+        font-size: 6rem;
         position: relative;
-        left: -200px;
+        left: -7rem;
     }
 
     #second_section h2 {
-        font-size: 1rem;
+        font-size: 1.6rem;
+        font-weight: 300;
     }
 
     #second_section p {
@@ -797,10 +817,13 @@ nav img {
     }
 
     #fourth_section h1 {
-        font-size: 3rem;
+        font-size: 4rem;
         position: relative;
-        left: -307px;
-        top: -129px;
+        left: 130px;
+        top: -5px;
+        transform: none;
+        z-index: 2;
+        margin-top: 6rem;
     }
 
     #fourth_section .section_wrapper {
@@ -816,7 +839,7 @@ nav img {
     }
 
     #fifth_section input {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     #footer {}
@@ -827,49 +850,69 @@ nav img {
 
 @media screen and (max-width: 420px) {
 
+
+
+
+    #first_section {
+        margin-top: 4rem;
+        margin-bottom: 15rem;
+    }
+
     #first_section .image_flower img {
-        width: 45%;
+        width: 129%;
     }
 
     #first_section .image_flower {
         position: relative;
-        top: -123px;
+        top: -100px;
         left: 75px;
     }
 
     #first_section h1 {
         font-size: 2rem;
         position: relative;
-        top: 13px;
+        top: 35px;
         left: 100px;
+        max-width: 300px;
     }
 
     #first_section .title2 {
         font-size: 12px;
         position: relative;
-        left: 8rem;
-        top: -21px;
+        left: 7rem;
+        top: 5px;
         z-index: 3;
+        max-width: 300px;
     }
 
     #first_section .text_circle {
         width: 42%;
         position: absolute;
-        top: 146px;
-        left: 297px;
+        top: 132px;
+        left: 174px;
+        max-width: 200px;
     }
 
     #first_section .dot {
         height: 50px;
         width: 50px;
         position: relative;
-        top: -31rem;
+        top: -36rem;
         left: 289px;
+    }
+
+    #first_section .image_flower {
+        max-width: 200px;
     }
 
     #socials {
         position: relative;
-        left: 22px;
+        left: 19px;
+        top: -169.5px;
+    }
+
+    #socials img {
+        width: 30%;
     }
 
     #second_section h1 {
@@ -883,7 +926,12 @@ nav img {
 
     #second_section .text {
         padding: 10px;
-        padding-bottom: 130px;
+        padding-bottom: 270px;
+        padding-top: 180px;
+    }
+
+    #fourth_section {
+        margin-top: 30px;
     }
 
     #fourth_section .section_wrapper {
@@ -896,10 +944,11 @@ nav img {
         position: relative;
         left: 32px;
         top: 6px;
+        max-width: 200px;
     }
 
     #fourth_section h1 {
-        font-size: 40px;
+        font-size: 4rem;
         position: relative;
         left: 30px;
         top: 8px;
@@ -912,5 +961,13 @@ nav img {
 
     #fifth_section .text a {
         margin: 10px;
+    }
+
+    #footer {
+        margin-top: -8px;
+    }
+
+    .nav-links {
+        width: 50%;
     }
 }

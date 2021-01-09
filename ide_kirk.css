@@ -101,6 +101,15 @@ nav img {
 }
 
 
+/* BILLEDER */
+#images img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 /* VIDEO */
 #video {
     position: relative;
@@ -116,11 +125,14 @@ nav img {
     font-family: Playfair Display, sans-serif;
 }
 
+
 /* SLIDESHOW */
+
 * {
     box-sizing: border-box
 }
 
+/*
 #slideshow {
     position: relative;
     left: -9.5rem;
@@ -226,6 +238,7 @@ nav img {
         opacity: 1
     }
 }
+*/
 
 
 /* THIRD SECTION */
