@@ -28,14 +28,31 @@
 
     <header>
         <nav>
-            <div class="logo">
-                <a href="forside.html"><img src="E.png" alt="logo"></a>
+            <a class="logo" href="forside.html">
+                <img src="E.png" alt="logo">
+            </a>
+
+            <ul class="nav-links">
+                <li> <a class="navlinks active" href="forside.html">— hjem</a></li>
+                <li> <a class="navlinks" href="om_mig.html">— om mig</a>
+                </li>
+                <li> <a class="navlinks" href="portfolio.html">— portfolio</a>
+                    <ul class="dropdown">
+                        <li><a class="sub" href="tema2.html">tema 02.</a></li>
+                        <li><a class="sub" href="tema3.html">tema 03.</a></li>
+                        <li><a class="sub" href="tema4.html">tema 04.</a></li>
+                        <li><a class="sub" href="tema5.html">tema 05.</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="burgermenu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-            <a href="forside.html">— hjem</a>
-            <a href="om_mig.html">— om mig</a>
-            <a href="portfolio.html">— portfolio</a>
         </nav>
     </header>
+
 
     <section id="first_section">
         <div class="title">
@@ -50,13 +67,20 @@
         <p>I tema 02. fik vi et grundlæggende kendskab til de mest anvendte redskaber som multimediedesigner og skabte fundamentet for vores værktøjskasse som kommende multimediedesignere. Vi lærte om grundlæggende faglige begreber indenfor design af digitale brugergrænseflader, digital indholdsproduktion, digital kommunikation og responsivt webdesign. Vi lærte at sætte websider op i HTML og CSS, fik de første hands on færdigheder indenfor udarbejdelse af grafik og billedbehandling i Photoshop, og opsætning af tekst og billeder i Adobe XD.</p>
     </section>
 
+
+
     <section id="third_section">
-        <div class="container_image">
-            <img src="svg/denstoreplanteguide.svg" alt="den store planteguide">
-        </div>
-        <div class="container_text">
-            <p>02.04.02</p>
-            <h1><a href="denstoreplanteguide.html">Den store planteguide</a></h1>
+        <div class="section_wrapper">
+            <div class="container_image">
+                <a href="denstoreplanteguide.html"><img src="svg/denstoreplanteguide.svg" alt="Den store planteguide" class="image">
+                    <div class="overlay">
+                    </div>
+                </a>
+            </div>
+            <div class="container_text">
+                <p>02.04.02</p>
+                <h1><a href="denstoreplanteguide.html">Den store planteguide</a></h1>
+            </div>
         </div>
         <div class="line"></div>
     </section>
@@ -92,7 +116,7 @@
     </footer>
 
 
-    <script src=""></script>
+    <script src="nav.js"></script>
 </body>
 
 </html>

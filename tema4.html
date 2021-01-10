@@ -28,14 +28,31 @@
 
     <header>
         <nav>
-            <div class="logo">
-                <a href="forside.html"><img src="E.png" alt="logo"></a>
+            <a class="logo" href="forside.html">
+                <img src="E.png" alt="logo">
+            </a>
+
+            <ul class="nav-links">
+                <li> <a class="navlinks active" href="forside.html">— hjem</a></li>
+                <li> <a class="navlinks" href="om_mig.html">— om mig</a>
+                </li>
+                <li> <a class="navlinks" href="portfolio.html">— portfolio</a>
+                    <ul class="dropdown">
+                        <li><a class="sub" href="tema2.html">tema 02.</a></li>
+                        <li><a class="sub" href="tema3.html">tema 03.</a></li>
+                        <li><a class="sub" href="tema4.html">tema 04.</a></li>
+                        <li><a class="sub" href="tema5.html">tema 05.</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="burgermenu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-            <a href="forside.html">— hjem</a>
-            <a href="om_mig.html">— om mig</a>
-            <a href="portfolio.html">— portfolio</a>
         </nav>
     </header>
+
 
     <section id="first_section">
         <div class="title">
@@ -52,7 +69,10 @@
 
     <section id="third_section">
         <div class="container_image">
-            <img src="svg/asset.svg" alt="assetliste spil">
+            <a href="assetliste.html"><img src="svg/asset.svg" alt="assetliste spil" class="image">
+                <div class="overlay">
+                </div>
+            </a>
         </div>
         <div class="container_text">
             <p>04.01.05</p>
@@ -64,7 +84,10 @@
 
     <section id="fourth_section">
         <div class="container_image">
-            <img src="svg/hjaelphannibal.svg" alt="hjælp hannibal">
+            <a href="spil.html"><img src="svg/hjaelphannibal.svg" alt="hjælp hannibal" class="image">
+                <div class="overlay">
+                </div>
+            </a>
         </div>
         <div class="container_text">
             <p>04.05.01</p>
@@ -104,7 +127,7 @@
     </footer>
 
 
-    <script src=""></script>
+    <script src="nav.js"></script>
 </body>
 
 </html>

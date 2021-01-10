@@ -21,19 +21,35 @@
 
 
     <title>REDESIGN - EMILIE KIRK-ANDERSEN</title>
-    <link rel="stylesheet" href="redesign.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
         <nav>
-            <div class="logo">
-                <a href="forside.html"><img src="E.png" alt="logo"></a>
+            <a class="logo" href="forside.html">
+                <img src="E.png" alt="logo">
+            </a>
+
+            <ul class="nav-links">
+                <li> <a class="navlinks active" href="forside.html">— hjem</a></li>
+                <li> <a class="navlinks" href="om_mig.html">— om mig</a>
+                </li>
+                <li> <a class="navlinks" href="portfolio.html">— portfolio</a>
+                    <ul class="dropdown">
+                        <li><a class="sub" href="tema2.html">tema 02.</a></li>
+                        <li><a class="sub" href="tema3.html">tema 03.</a></li>
+                        <li><a class="sub" href="tema4.html">tema 04.</a></li>
+                        <li><a class="sub" href="tema5.html">tema 05.</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="burgermenu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-            <a href="forside.html">— hjem</a>
-            <a href="om_mig.html">— om mig</a>
-            <a href="portfolio.html">— portfolio</a>
         </nav>
     </header>
 
@@ -110,7 +126,7 @@
             </div>
         </section>
 
-        <section id="line"></section>
+        <div class="line line_redesign"></div>
 
         <section id="third_section">
             <h2>portfolio // 2020</h2>
@@ -142,6 +158,7 @@
 
 
     <script src="slideshow.js"></script>
+    <script src="nav.js"></script>
 </body>
 
 </html>

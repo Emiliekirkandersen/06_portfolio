@@ -28,12 +28,28 @@
 
     <header>
         <nav>
-            <div class="logo">
-                <a href="forside.html"><img src="E.png" alt="logo"></a>
+            <a class="logo" href="forside.html">
+                <img src="E.png" alt="logo">
+            </a>
+
+            <ul class="nav-links">
+                <li> <a class="navlinks active" href="forside.html">— hjem</a></li>
+                <li> <a class="navlinks" href="om_mig.html">— om mig</a>
+                </li>
+                <li> <a class="navlinks" href="portfolio.html">— portfolio</a>
+                    <ul class="dropdown">
+                        <li><a class="sub" href="tema2.html">tema 02.</a></li>
+                        <li><a class="sub" href="tema3.html">tema 03.</a></li>
+                        <li><a class="sub" href="tema4.html">tema 04.</a></li>
+                        <li><a class="sub" href="tema5.html">tema 05.</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="burgermenu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-            <a href="forside.html">— hjem</a>
-            <a href="om_mig.html">— om mig</a>
-            <a href="portfolio.html">— portfolio</a>
         </nav>
     </header>
 
@@ -52,11 +68,14 @@
 
     <section id="third_section">
         <div class="container_image">
-            <img src="svg/pilot2.svg" alt="pilotprojekt">
+            <a href="pilot.html"><img src="svg/pilot2.svg" alt="pilotprojekt" class="image">
+                <div class="overlay">
+                </div>
+            </a>
         </div>
         <div class="container_text">
             <p>05.01.01</p>
-            <h1><a href="pilot.html">Pilotprojekt</a></h1>
+            <h1><a href="pilot.html">Pilotprojekt - Musik med Nicklas</a></h1>
         </div>
         <div class="line"></div>
     </section>
@@ -64,7 +83,10 @@
 
     <section id="fourth_section">
         <div class="container_image">
-            <img src="svg/redesign.svg" alt="redesign hairloungecph">
+            <a href="redesign.html"><img src="svg/redesign.svg" alt="redesign hairloungecph" class="image">
+                <div class="overlay">
+                </div>
+            </a>
         </div>
         <div class="container_text">
             <p>05.03.01</p>
@@ -104,7 +126,7 @@
     </footer>
 
 
-    <script src=""></script>
+    <script src="nav.js"></script>
 </body>
 
 </html>
