@@ -254,7 +254,7 @@ ul li ul li {
     position: relative;
     top: -10rem;
     left: 62px;
-    line-height: 2;
+    line-height: 2.5;
 }
 
 
@@ -360,39 +360,13 @@ a {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(226, 238, 245, 0.77);
+    background-color: rgba(248, 243, 229, 0.89);
 }
 
 .container_image:hover .overlay {
     opacity: 1;
 }
 
-
-
-
-
-/* FOURTH SECTION */
-.container_portfolio h2 {
-    font-family: Quicksand, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 200;
-    transform: rotate(-90deg);
-    position: relative;
-    top: -40rem;
-    left: 610px;
-}
-
-/*
-#fourth_section .container_circle {
-    height: 400px;
-    width: 400px;
-    background-color: #ECAFA4;
-    border-radius: 50%;
-    margin-left: 68rem;
-    margin-top: -10rem;
-    margin-bottom: 150px;
-}
-*/
 
 
 /* FOOTER */
