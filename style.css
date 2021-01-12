@@ -6,10 +6,21 @@ body {
     overflow-x: hidden;
 }
 
+main {
+    background-color: #fcfaf8;
+}
+
 h1,
 h2 {
     font-family: Playfair Display, sans-serif;
     color: #000000;
+}
+
+h5 {
+    font-weight: 200;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
 }
 
 p {
@@ -252,13 +263,16 @@ ul li ul li {
 #second_section {
     background-color: #fcfaf8;
     height: 97rem;
+    min-width: 100%;
+    box-sizing: border-box;
+    margin-top: 5rem;
 }
 
 #second_section .text_container {
-    position: relative;
-    left: 9rem;
-    top: 3rem;
-    width: 74rem;
+    margin-left: 25%;
+    width: 50%;
+    float: left;
+
 }
 
 #second_section h2 {
@@ -282,13 +296,11 @@ ul li ul li {
 
 #grid_container .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
 }
 
 #grid_container {
     background-color: #f4eee6;
-    padding-left: 7rem;
     position: relative;
     top: 44px;
     color: #000000;
@@ -296,7 +308,6 @@ ul li ul li {
 
 #grid_container .container {
     padding: 1rem;
-    padding-left: 2rem;
 }
 
 #grid_container h4 {
@@ -305,26 +316,212 @@ ul li ul li {
 }
 
 #grid_container p {
-    padding-top: 1.5rem;
+    padding-top: 0.5rem;
+    margin-left: 25%;
 }
 
 #grid_container ul {
     padding-left: 64px;
+    max-width: 550px;
 }
 
 #grid_container h4 {
     padding-left: 50px;
 }
 
-/* ------------------------------ ASSET ------------------------------- */
 
+
+
+/* ------------------------------ PLANTEGUIDE ------------------------------- */
+.images_planteguide {
+    display: flex;
+    margin-top: 2rem;
+}
+
+/*
+.zoom:hover {
+    position: relative;
+    min-width: 700px;
+    height: auto;
+    display: flex;
+    z-index: 531;
+}
+*/
+
+/* PDF */
+
+#pdf_section_planteguide iframe {
+    position: relative;
+    left: 18rem;
+    top: -15rem;
+    border-radius: 1%;
+    border-style: none;
+}
+
+#image_text_plante {
+    position: relative;
+    top: -16rem;
+}
+
+
+#image_text_slide {
+    position: relative;
+    top: -8rem;
+}
+
+
+
+/* VIDEO*/
+
+#video .video_plante {
+    position: relative;
+    top: -7rem;
+    left: 17.5rem;
+    margin-bottom: -13rem;
+}
+
+
+
+/* LINK */
+#link_section_planteguide {
+    padding: 75px;
+    text-align: center;
+    margin-top: -11rem;
+}
+
+#link_section_planteguide a {
+    margin: 30px;
+}
+
+#link_section_planteguide h2 {
+    font-weight: 200;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+#link_section_planteguide input {
+    border: none;
+    background-color: #ECAFA4;
+    border-radius: 1.5rem;
+    padding: 0.8vw 1vw;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 3px #a0a0a0;
+    letter-spacing: 0.1rem;
+    /*    margin: 5px 0 10px 0;*/
+    font-family: Quicksand, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+#link_section_planteguide input:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* ------------------------------ IDE ------------------------------------ */
+/* BILLEDER */
+#images_ide {
+    position: relative;
+    top: -7rem;
+    text-align: center;
+}
+
+#images_ide img {
+    border-radius: 1%;
+    margin: 1rem;
+}
+
+#pdf_section_ide iframe {
+    position: relative;
+    border-style: none;
+    left: 23rem;
+    border-radius: 1%;
+}
+
+
+/* ------------------------------ PROTOTYPE ------------------------------- */
+
+
+#image_text_prototype {
+    position: relative;
+    top: -19rem;
+}
+
+/* PDF */
+#pdf_section_proto iframe {
+    position: relative;
+    left: 23rem;
+    top: -19rem;
+    border-radius: 10px;
+    border-style: none;
+}
+
+/* SLIDESHOW*/
+.slideshow_prototype {
+    position: relative;
+    top: -11rem;
+}
+
+/* VIDEO */
+#video .video_prototype {
+    position: relative;
+    top: -20rem;
+    left: 17rem;
+    margin-bottom: -24rem;
+}
+
+
+/* LINK */
+#link_section_prototype {
+    padding: 75px;
+    text-align: center;
+}
+
+#link_section_prototype a {
+    margin: 30px;
+}
+
+#link_section_prototype h2 {
+    font-weight: 200;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+#link_section_prototype input {
+    border: none;
+    background-color: #ECAFA4;
+    border-radius: 1.5rem;
+    padding: 0.8vw 1vw;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 3px #a0a0a0;
+    letter-spacing: 0.1rem;
+    /*    margin: 5px 0 10px 0;*/
+    font-family: Quicksand, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+#link_section_prototype input:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+/* ------------------------------ ASSET ------------------------------- */
 
 /* GRID */
 #grid_container .section_wrapper_asset {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
-    padding-right: 10rem;
+}
+
+#grid_container .section_wrapper_asset p {
+    padding-top: 2.5rem;
 }
 
 #grid_container .container3 {
@@ -334,101 +531,170 @@ ul li ul li {
 /* BILLEDER */
 #images_asset {
     position: relative;
-    top: -51rem;
+    top: -24rem;
     text-align: center;
 }
 
 #images_asset .container {
     display: flex;
     box-sizing: border-box;
-    padding-left: 13rem;
+    padding-left: 19rem;
 }
 
 #images_asset img {
-    border-radius: 3%;
+    border-radius: 2%;
     margin: 1rem;
 }
 
 
 /* PDF */
 #pdf_section_asset iframe {
-    position: relative;
-    left: 18rem;
-    top: -46rem;
-    border-radius: 10px;
+    border-radius: 2%;
     border-style: none;
-}
-
-
-
-
-
-/* ------------------------------ PLANTEGUIDE ------------------------------- */
-.images_planteguide {
-    display: flex;
-}
-
-#pdf_section_planteguide iframe {
+    margin-left: 22%;
+    width: 60%;
+    height: 500px;
     position: relative;
-    left: 18rem;
-    top: -46rem;
-    border-radius: 10px;
+    top: -6rem;
+}
+
+
+#pdf_section_asset {
+    min-width: 100%;
+    margin-bottom: -10rem;
+}
+
+#diagram_pdf iframe {
+    border-radius: 2%;
     border-style: none;
-}
-
-#styletile {
-    overflow-x: scroll;
-    white-space: nowrap;
-}
-
-#video .video_plante {
     position: relative;
-    top: 74rem;
-    left: 17.5rem;
+    top: -13rem;
+    left: 28rem;
+}
+
+
+/* TEKST */
+#image_text_asset1 {
+    position: relative;
+    top: -21rem;
+}
+
+#image_text_asset2 {
+    position: relative;
+    top: -14rem;
+}
+
+#image_text_asset3 {
+    position: relative;
+    top: -7rem;
 }
 
 
 
-
-/* ------------------------------ PROTOTYPE ------------------------------- */
-
-/* BILLEDER */
-#images_proto {
+/* SLIDESHOW*/
+.slideshow_asset {
     position: relative;
-    top: -51rem;
+    top: -13rem;
+    left: 1rem;
+}
+
+
+/* ---------------------------- HJÆLP HANNIBAL ------------------------ */
+#pdf_section_hannibal .pdf_hannibal iframe {
+    border-radius: 2%;
+    border-style: none;
+    position: relative;
+    top: -45rem;
+    left: 14rem;
+}
+
+#pdf_section_hannibal .game iframe {
+    border-style: none;
+    position: relative;
+    top: -33rem;
+    left: 14rem;
+}
+
+#pdf_section_hannibal {
+    margin-bottom: -36rem;
+}
+
+
+/* LINK */
+#link_section_spil {
+    padding: 75px;
     text-align: center;
 }
 
-#images_proto img {
-    border-radius: 3%;
-    margin: 1rem;
+#link_section_spil a {
+    margin: 30px;
+}
+
+#link_section_spil h2 {
+    font-weight: 200;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+#link_section_spil input {
+    border: none;
+    background-color: #ECAFA4;
+    border-radius: 1.5rem;
+    padding: 0.8vw 1vw;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 3px #a0a0a0;
+    letter-spacing: 0.1rem;
+    /*    margin: 5px 0 10px 0;*/
+    font-family: Quicksand, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+#link_section_spil input:hover {
+    transform: scale(1.1);
 }
 
 
-/* PDF */
-#pdf_section_proto iframe {
+#pdf_section_hannibal h3 {
+    line-height: 0;
+    font-weight: 600;
     position: relative;
-    left: 18rem;
-    top: -46rem;
-    border-radius: 10px;
-    border-style: none;
+    font-family: Playfair Display, sans-serif;
+    max-width: 100%;
+    margin-left: 44%;
+    width: 50%;
+    text-transform: uppercase;
+    top: -35rem;
 }
+
 
 
 /* ------------------------------ PILOT ------------------------------- */
 /* BILLED */
 #images_pilot {
     position: relative;
-    top: -51rem;
+    top: -17rem;
     text-align: center;
 }
 
 #images_pilot img {
-    border-radius: 3%;
+    border-radius: 2%;
     margin: 1rem;
     width: 40%;
 }
 
+/* VIDEO */
+#video .video_pilot {
+    position: relative;
+    top: -13rem;
+    left: 17.5rem;
+}
+
+#video .video_pilot h3 {
+    position: relative;
+    top: 16px;
+}
 
 
 /* ------------------------------ REDESIGN ------------------------------- */
@@ -436,42 +702,82 @@ ul li ul li {
 #pdf_section_redesign iframe {
     position: relative;
     left: 18rem;
-    top: -46rem;
-    border-radius: 10px;
+    top: -44rem;
+    border-radius: 2%;
     border-style: none;
 }
 
 
+/* LINK */
+#link_section_redesign {
+    padding: 75px;
+    text-align: center;
+}
+
+#link_section_redesign a {
+    margin: 30px;
+}
+
+#link_section_redesign h2 {
+    font-weight: 200;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+#link_section_redesign input {
+    border: none;
+    background-color: #ECAFA4;
+    border-radius: 1.5rem;
+    padding: 0.8vw 1vw;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 3px #a0a0a0;
+    letter-spacing: 0.1rem;
+    /*    margin: 5px 0 10px 0;*/
+    font-family: Quicksand, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+#link_section_redesign input:hover {
+    transform: scale(1.1);
+}
 
 
 
 
-/* VIDEO */
-#video .video_pilot {
+
+
+
+/* ----------------------------- PITCH ---------------------------------- */
+#pdf_section_pitch iframe {
     position: relative;
-    top: -50rem;
-    left: 17.5rem;
+    left: 14rem;
+    top: -42rem;
+    border-radius: 2%;
+    border-style: none;
+}
+
+#pdf_section_pitch {
+    margin-bottom: -24rem;
 }
 
 
 
 
 /* VIDEO */
-/*
-#video {
-    position: relative;
-    top: 70rem;
-    left: 17.5rem;
-}
-*/
-
 #video h3 {
     line-height: 0;
     font-weight: 600;
     position: relative;
-    bottom: -59px;
+    bottom: -129px;
     font-family: Playfair Display, sans-serif;
+    max-width: 100%;
+    margin-left: 25%;
+    width: 50%;
+    text-transform: uppercase;
 }
+
 
 
 
@@ -483,14 +789,17 @@ ul li ul li {
 
 #slideshow {
     position: relative;
-    top: -72rem;
+    top: -7rem;
 }
 
+
+
 .slideshow_container {
-    max-width: 800px;
+    max-width: 750px;
     position: relative;
     margin: auto;
 }
+
 
 .slide {
     display: none;
@@ -594,7 +903,7 @@ ul li ul li {
     height: 167px;
     position: relative;
     left: 1rem;
-    top: -250rem;
+    top: -251rem;
     transform: rotate(-90deg);
     max-width: 300px;
 }
@@ -602,7 +911,7 @@ ul li ul li {
 
 .line_kirkcph {
     position: relative;
-    top: -100rem;
+    top: -237rem;
 }
 
 .line_pilot {
@@ -612,22 +921,27 @@ ul li ul li {
 
 .line_proto {
     position: relative;
-    top: -138rem;
+    top: -243rem;
 }
 
 .line_pitch {
     position: relative;
-    top: -138rem;
+    top: -148rem;
 }
 
 .line_asset {
     position: relative;
-    top: -177.5rem;
+    top: -281.5rem;
 }
 
 .line_redesign {
     position: relative;
     top: -138rem;
+}
+
+.line_spil {
+    position: relative;
+    top: -177rem;
 }
 
 
