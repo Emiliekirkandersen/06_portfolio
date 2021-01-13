@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="robots" content="noindex">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
 
@@ -18,6 +20,9 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 
 
     <title>DEN STORE PLANTEGUIDE - EMILIE KIRK-ANDERSEN</title>
@@ -97,8 +102,8 @@
                 <p>I gruppen startede vi med at researche og tilegne os viden om stilarten, hvorefter vi pitchede foran klassen. Derefter skulle vi designe og programmere vores egen responsive website efter den tildelte stilart og ud fra en given struktur. Min stilart var neumorphism, som er en stilart der udspringer fra skeumorphism. Stilen forsøger at mimere UI-elementer, der kan genkendes fra den virkelige verden og der benyttes rundede og bløde former. Der bliver skabt dybde og tekstur ved brug af skygger, som giver en 3D effekt og en følelse af genkendelighed. Stilen har dermed en rolig effekt, hvilket jeg har taget med i udarbejdelsen af designet på min egen website.</p>
 
                 <div class="images_planteguide">
-                    <img src="neumorphism.jpg" width="50%" alt="">
-                    <img src="neumorphism2.jpg" width="50%" alt="">
+                    <img src="neumorphism.jpg" width="50%" alt="neumorphism">
+                    <img src="neumorphism2.jpg" width="50%" alt="neumorphism">
                 </div>
 
                 <h2>Proces</h2>
@@ -117,39 +122,41 @@
         </section>
 
         <section id="image_text_slide">
-            <h5>Slideshow med indhold til sitet</h5>
+            <h5>Indhold til sitet</h5>
         </section>
 
         <section id="slideshow">
-            <div class="slideshow_container">
-                <div class="slide fade">
-                    <div class="numbertext">1 / 2</div>
-                    <img src="planteguide/splashbillede.png" style="width:100%">
-                    <div class="text">Splashbillede</div>
+            <div class="slideshow_plante">
+                <div class="slideshow_container">
+                    <div class="slide fade">
+                        <div class="numbertext">1 / 2</div>
+                        <img src="planteguide/splashbillede.png" alt="splash" style="width:100%">
+                        <div class="text">Splashbillede</div>
+                    </div>
+
+                    <div class="slide fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="planteguide/favicon_proces.png" alt="favicon" style="width:100%">
+                        <div class="text">Favicon</div>
+                    </div>
+
+                    <div class="slide fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="planteguide/styletile_planteguide.jpg" alt="styletile" style="width:100%">
+                        <div class="text">Styletile</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
+                <br>
 
-                <div class="slide fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="planteguide/favicon_proces.png" style="width:100%">
-                    <div class="text">Favicon</div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+
+                    <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
-
-                <div class="slide fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="planteguide/styletile_planteguide.jpg" style="width:100%">
-                    <div class="text">Styletile</div>
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-
-                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </section>
 
@@ -165,15 +172,17 @@
         <div class="line line_planteguide"></div>
 
         <section id="link_section_planteguide">
-            <a href="http://emiliekirkandersen.dk/kea/02_web/04_responsive/responsive_site_v2/index.html">
-                <input type="submit" value="Se hjemmesiden"></a>
+            <a href="http://emiliekirkandersen.dk/kea/02_web/04_responsive/responsive_site_v2/index.html" target="blank">Se hjemmesiden</a>
         </section>
+
+        <a class="hop" href="#"><i class="fas fa-chevron-circle-up"></i></a>
+
 
     </main>
 
 
     <footer id="footer">
-        <p>Emilie Kirk-Andersen © 2020</p>
+        <p>Emilie Kirk-Andersen © 2021</p>
 
         <div class="copyright">
             <div class="icon">

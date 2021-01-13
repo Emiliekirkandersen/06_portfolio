@@ -41,7 +41,7 @@ body {
 }
 
 
-/* Navigation */
+/* NAVIGATION */
 nav {
     display: flex;
     justify-content: space-around;
@@ -95,7 +95,7 @@ nav {
     color: #ECAFA4;
 }
 
-/* Burger menu */
+/* BURGER MENU */
 
 
 .burgermenu {
@@ -127,7 +127,7 @@ nav {
 
 }
 
-/*drop-down*/
+/* DROP DOWN */
 
 ul li ul {
     visibility: hidden;
@@ -154,7 +154,7 @@ ul li ul li {
     width: 100%;
 }
 
-/*Mediaq*/
+/* MEDIA Q */
 
 @media screen and (max-width: 1024px) {
     body {
@@ -215,7 +215,7 @@ ul li ul li {
     }
 }
 
-/*Burger menu ekstra*/
+/* EKSTRA BURGER MENU */
 
 .nav-active {
     transform: translateX(0%);
@@ -257,7 +257,7 @@ ul li ul li {
     overflow: hidden;
     letter-spacing: .15em;
     animation:
-        typing 7s steps(400, end),
+        typing 4s steps(400, end),
         blink-caret 1000s step-end infinite;
 }
 
@@ -276,6 +276,7 @@ ul li ul li {
     font-size: 1.2rem;
     padding-right: 40rem;
     line-height: 2.5;
+    font-weight: 200;
 }
 
 #first_section img {
@@ -670,6 +671,7 @@ ul li ul li {
 
     #fourth_section {
         margin-top: 48rem;
+        margin-top: 64rem;
     }
 
     #fourth_section .grid_wrapper {
@@ -684,6 +686,7 @@ ul li ul li {
     #fourth_section h2 {
         position: relative;
         top: 0rem;
+        font-size: 1.8rem;
     }
 
     .nav-links {

@@ -294,7 +294,8 @@ ul li ul li {
     padding-left: 51px;
     position: relative;
     left: -55px;
-    margin-bottom: 4px;
+    left: -56px;
+    margin-bottom: 0px;
 }
 
 a {

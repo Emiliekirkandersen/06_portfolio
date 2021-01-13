@@ -299,8 +299,7 @@ a {
     padding-top: 68px;
     padding-left: 51px;
     position: relative;
-    left: -55px;
-    margin-bottom: 4px;
+    left: -56px;
 }
 
 a {
@@ -316,7 +315,7 @@ a {
     border-left: 1px solid #000000;
     height: 138px;
     position: relative;
-    top: -41rem;
+    top: -40.5rem;
     left: 26rem;
     transform: rotate(-90deg);
     max-width: 500px;
@@ -338,6 +337,7 @@ a {
 #fourth_section {
     top: -12rem;
     position: relative;
+    margin-bottom: -7rem;
 }
 
 #fourth_section {
@@ -369,8 +369,7 @@ a {
     padding-top: 68px;
     padding-left: 51px;
     position: relative;
-    left: -55px;
-    margin-bottom: 4px;
+    left: -56px;
 }
 
 a {
@@ -387,7 +386,7 @@ a {
     height: 138px;
     position: relative;
     top: -32rem;
-    left: 35rem;
+    left: 34.8rem;
     transform: rotate(-90deg);
     max-width: 200px;
 }
@@ -576,7 +575,8 @@ a {
         left: -20px;
     }
 
-    #third_section .container_text h1 {
+    #third_section .container_text h1,
+    #fourth_section .container_text h1 {
         font-size: 1.6rem;
     }
 
